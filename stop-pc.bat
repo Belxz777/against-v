@@ -23,5 +23,5 @@ if !lock! equ 1 (
     echo WshShell.Popup "⚠️ Время работы истекло! ⏰ Сейчас %time%. Доступ разрешен с 10:00 до 23:00.", 60, "Блокировка", 48 >> %temp%\popup.vbs
     cscript //nologo %temp%\popup.vbs
     del %temp%\popup.vbs
-  shutdown /s /f /t 60 /c "Acces locked from 10 am to 11pm vitek idi delay dela ."
+  shutdown /s /f /t 2 /c "Access locked from 10 am to 11pm vitek idi delay dela will off in 2 secs ."
 )
